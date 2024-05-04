@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/Inicio">
+
+    <fragment
+        android:id="@+id/Inicio"
+        android:name="alessandro.munoz.emulador_20200128_alessandro.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/Perfil"
+        android:name="alessandro.munoz.emulador_20200128_alessandro.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/Información"
+        android:name="alessandro.munoz.emulador_20200128_alessandro.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/contactanos"
+        android:name="alessandro.munoz.emulador_20200128_alessandro.Contactanos"
+        android:label="fragment_contactanos"
+        tools:layout="@layout/fragment_contactanos" />
+</navigation>

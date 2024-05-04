@@ -5,4 +5,18 @@
     android:id="@+id/frameLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Contactanos"/>
+    tools:context=".Contactanos">
+
+    <Button
+        android:id="@+id/btnCorreo"
+        android:layout_width="301dp"
+        android:layout_height="95dp"
+        android:text="Correo del estudiante"
+        android:textSize="24sp"
+        app:cornerRadius="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="#9C27B0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

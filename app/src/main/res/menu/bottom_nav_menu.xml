@@ -8,17 +8,17 @@
 
     <item
         android:id="@+id/Perfil"
-        android:icon="@drawable/v_account"
+        android:icon="@drawable/account"
         android:title="Perfil" />
 
     <item
         android:id="@+id/Información"
-        android:icon="@drawable/v_article"
+        android:icon="@drawable/article"
         android:title="Información" />
 
     <item
         android:id="@+id/contactanos"
-        android:icon="@drawable/v_call"
+        android:icon="@drawable/call"
         android:title="Contactanos" />
 
 </menu>

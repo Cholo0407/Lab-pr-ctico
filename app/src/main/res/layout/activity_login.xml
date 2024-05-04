@@ -17,7 +17,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.105"
-        app:srcCompat="@drawable/circle" />
+        app:srcCompat="@drawable/circulo" />
 
     <ImageView
         android:id="@+id/circulo2"
@@ -27,7 +27,7 @@
         android:layout_marginTop="188dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/circle" />
+        app:srcCompat="@drawable/circulo" />
 
     <ImageView
         android:id="@+id/circulo3"
@@ -36,7 +36,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.624"
-        app:srcCompat="@drawable/circle"
+        app:srcCompat="@drawable/circulo"
         tools:layout_editor_absoluteX="-5dp" />
 
     <TextView
@@ -55,8 +55,8 @@
         android:id="@+id/txtUser"
         android:layout_width="253dp"
         android:layout_height="55dp"
-        android:background="@drawable/txt_circular"
-        android:drawableRight="@drawable/v_account"
+        android:background="@drawable/textview"
+        android:drawableRight="@drawable/account"
         android:ems="10"
         android:hint="  Username"
         android:inputType="text"
@@ -72,7 +72,7 @@
         android:layout_width="253dp"
         android:layout_height="59dp"
         android:layout_marginStart="20dp"
-        android:background="@drawable/txt_circular"
+        android:background="@drawable/textview"
         android:drawableRight="@drawable/eye"
         android:ems="10"
         android:hint="Password"
@@ -89,7 +89,7 @@
         android:layout_width="216dp"
         android:layout_height="74dp"
         android:layout_marginBottom="40dp"
-        android:backgroundTint="#9980FF"
+        android:backgroundTint="#968450"
         android:shadowColor="#FFFFFF"
         android:text="Sign in"
         android:textSize="16sp"
